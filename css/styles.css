@@ -1,54 +1,89 @@
+@import url("media.css");
 @import url("reset.css");
 @import url("navigation.css");
 
 .main__container {
   display: grid;
-  grid-template-areas:
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, auto);
+  /* grid-template-areas:
     "mh"
     "ft"
     "as"
     "bpo"
     "bpt"
     "bpth"
-    "footer";
-  gap: 1rem;
+    "footer"; */
+  /* gap: 1rem; */
   padding: 1rem;
 }
 
 .main__header {
-  grid-area: mh;
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 1;
+  background-color: #2c2c2c;
   border: 1px solid #e9ecef;
+  color: #fff;
+  padding: 20px;
+  font-size: 2em;
+  text-align: center;
 }
 
 .featured__blog {
-  grid-area: ft;
+  grid-column: 1 / span 3;
+  grid-row: 2 / span 1;
+  background-color: #800020;
+  color: #fff;
+  padding: 20px;
   border: 1px solid green;
 }
 
 .aside__blog {
-  grid-area: as;
+  grid-column: 1 / span 3;
+  grid-row: 3 / span 1;
+  background-color: #007f5f;
+  color: #fff;
+  padding: 20px;
   border: 1px solid blue;
 }
 
 .blog__post-one {
-  grid-area: bpo;
+  grid-column: 1 / span 3;
+  grid-row: 4 / span 1;
   border: 1px solid red;
 }
 
 .blog__post-two {
-  grid-area: bpt;
+  grid-column: 1 / span 3;
+  grid-row: 5 / span 1;
   bottom: 1px solid violet;
 }
 
 .blog__post-three {
-  grid-area: bpth;
+  grid-column: 1 / span 3;
+  grid-row: 6 / span 1;
   border: 1px solid yellow;
 }
 
-.main__footer {
-  grid-area: footer;
-  border: 1px solid #273a42;
+.blog__post-one,
+.blog__post-two,
+.blog__post-three {
+  background-color: #ffd700;
+  padding: 20px;
+  color: #2c2c2c;
 }
+
+.main__footer {
+  grid-column: 1 / span 3;
+  grid-row: 7 / span 1;
+  background-color: #2c2c2c;
+  border: 1px solid #273a42;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Media Queries */
 
 @media (max-width: 480px) {
   .header__navbar {
@@ -62,16 +97,127 @@
     font-size: 1.25rem;
     margin-left: 20px;
   }
-}
 
-@media (min-width: 768px) and (max-width: 1024px) {
+  .main__container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+  }
   .header__navbar {
     font-size: 1.5rem;
     margin-left: 30px;
   }
+
+  .main__header {
+    grid-column: 1 / span 2;
+    grid-row: 3 / span 3;
+  }
+
+  .featured__blog {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 2;
+  }
+
+  .aside__blog {
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 5;
+  }
+
+  .blog__post-one {
+    grid-column: 1 / span 1;
+    grid-row: 6 / span 1;
+  }
+
+  .blog__post-two {
+    grid-column: 2 / span 1;
+    grid-row: 6 / span 1;
+  }
+
+  .blog__post-three {
+    grid-column: 3 / span 1;
+    grid-row: 6 / span 1;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main__container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+  }
+  .header__navbar {
+    font-size: 1.5rem;
+    margin-left: 30px;
+  }
+
+  .main__header {
+    grid-column: 1 / span 2;
+    grid-row: 3 / span 3;
+  }
+
+  .featured__blog {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 2;
+  }
+
+  .aside__blog {
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 5;
+  }
+
+  .blog__post-one {
+    grid-column: 1 / span 1;
+    grid-row: 6 / span 1;
+  }
+
+  .blog__post-two {
+    grid-column: 2 / span 1;
+    grid-row: 6 / span 1;
+  }
+
+  .blog__post-three {
+    grid-column: 3 / span 1;
+    grid-row: 6 / span 1;
+  }
 }
 
 @media (min-width: 1025px) {
+  .main__container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+  }
+  .header__navbar {
+    font-size: 1.5rem;
+    margin-left: 30px;
+  }
+
+  .main__header {
+    grid-column: 1 / span 2;
+    grid-row: 3 / span 3;
+  }
+
+  .featured__blog {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 2;
+  }
+
+  .aside__blog {
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 5;
+  }
+
+  .blog__post-one {
+    grid-column: 1 / span 1;
+    grid-row: 6 / span 1;
+  }
+
+  .blog__post-two {
+    grid-column: 2 / span 1;
+    grid-row: 6 / span 1;
+  }
+
+  .blog__post-three {
+    grid-column: 3 / span 1;
+    grid-row: 6 / span 1;
+  }
   .header__navbar {
     font-size: 1.75rem;
     margin-left: 40px;
