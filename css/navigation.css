@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #f8f9fa;
+  background-color: #f8f6e9;
   border-bottom: 1px solid #e9ecef;
 }
 
@@ -13,8 +13,14 @@
   color: #343a40;
 }
 
-.header__navbar {
+.header__navbar .header__nav_list {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  list-style: none;
+}
+
+.header__nav_item a {
+  margin-right: 1rem;
+  text-decoration: none;
 }
