@@ -41,7 +41,7 @@ div.side__post:last-child {
   }
 
   .main__container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, auto);
   }
   .header__navbar {
@@ -50,32 +50,32 @@ div.side__post:last-child {
   }
 
   .main__header {
-    grid-column: 1 / span 2;
-    grid-row: 3 / span 3;
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 1;
   }
 
   .featured__blog {
     grid-column: 1 / span 3;
-    grid-row: 1 / span 3;
+    grid-row: 2 / span 1;
   }
 
   .aside__blog {
-    grid-column: 3 / span 1;
-    grid-row: 1 / span 5;
+    grid-column: 1 / span 3;
+    grid-row: 3 / span 1;
   }
 
   .blog__post-one {
-    grid-column: 1 / span 1;
-    grid-row: 6 / span 1;
+    grid-column: 1 / span 3;
+    grid-row: 4 / span 1;
   }
 
   .blog__post-two {
-    grid-column: 2 / span 1;
-    grid-row: 6 / span 1;
+    grid-column: 1 / span 3;
+    grid-row: 5 / span 1;
   }
 
   .blog__post-three {
-    grid-column: 3 / span 1;
+    grid-column: 1 / span 3;
     grid-row: 6 / span 1;
   }
 }
@@ -92,7 +92,7 @@ div.side__post:last-child {
 
   .main__header {
     grid-column: 1 / span 2;
-    grid-row: 5 / span 1;
+    grid-row: 4 / span 2;
   }
 
   .featured__blog {
@@ -133,12 +133,12 @@ div.side__post:last-child {
 
   .main__header {
     grid-column: 1 / span 2;
-    grid-row: 5 / span 1;
+    grid-row: 4 / span 2;
   }
 
   .featured__blog {
     grid-column: 1 / span 2;
-    grid-row: 1 / span 4;
+    grid-row: 1 / span 3;
   }
 
   .aside__blog {
