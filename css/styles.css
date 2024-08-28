@@ -3,16 +3,8 @@
 @import url("grid.css");
 @import url("navigation.css");
 @import url("aside.css");
+@import url("cards.css");
 
-.aside__blog {
-  display: flex;
-  flex-direction: column;
-  border-radius: 0.5rem;
-}
-
-div.side__post:last-child {
-  border-bottom: none;
-}
 /* Media Queries */
 
 @media (max-width: 480px) {
@@ -106,6 +98,22 @@ div.side__post:last-child {
   .blog__post-three {
     grid-column: 3 / span 1;
     grid-row: 6 / span 1;
+  }
+
+  .blog__post-one,
+  .blog__post-two,
+  .blog__post-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .blog__post-one,
+  .blog__post-two,
+  .blog__post-three img {
+    width: 100%;
+    /* height: auto; */
   }
 }
 

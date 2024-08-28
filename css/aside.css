@@ -1,3 +1,9 @@
+.aside__blog {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+}
+
 .aside__blog h3 {
   color: #fce570;
   font-size: 1.6rem;
@@ -9,6 +15,10 @@
   text-decoration: none;
   color: #d9d9d9;
   cursor: pointer;
+}
+
+.aside__blog a:hover {
+  color: #fce570;
 }
 
 .side__post {
@@ -29,4 +39,8 @@
   color: #d9d9d9;
   font-size: 1rem;
   margin-bottom: 0.3rem;
+}
+
+div.side__post:last-child {
+  border-bottom: none;
 }

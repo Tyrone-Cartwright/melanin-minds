@@ -1,0 +1,37 @@
+.blog__card {
+  display: flex;
+  flex: wrap;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.blog__card img {
+  max-width: 102px;
+  float: left;
+  margin-right: 10px;
+}
+
+.blog__card h3 {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.blog__card p {
+  color: #260101;
+  font-size: 0.9rem;
+  /* margin: 10px 0; */
+}
+
+.read__more {
+  position: absolute;
+  right: 20px;
+  bottom: 50px;
+  color: red;
+  width: 30px;
+  height: 30px;
+}
