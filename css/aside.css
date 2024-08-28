@@ -1,0 +1,32 @@
+.aside__blog h3 {
+  color: #fce570;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.aside__blog a {
+  text-decoration: none;
+  color: #d9d9d9;
+  cursor: pointer;
+}
+
+.side__post {
+  border-bottom: 1px solid #666869;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.side__post h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.side__post p {
+  color: #d9d9d9;
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}

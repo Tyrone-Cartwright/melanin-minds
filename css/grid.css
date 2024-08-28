@@ -33,7 +33,7 @@
 .featured__blog {
   grid-column: 1 / span 2;
   grid-row: 2 / span 1;
-  background-image: url("../assets/hexagonal-pattern-unsplash.jpg");
+  background-image: url("../assets/triangle-unsplash.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -44,8 +44,8 @@
 .aside__blog {
   grid-column: 1 / span 3;
   grid-row: 3 / span 1;
-  /* background-color: #007f5f; */
-  color: #161414;
+  background-color: #800000;
+  color: #e8e6e6;
   padding: 20px;
 }
 
