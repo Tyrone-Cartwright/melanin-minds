@@ -20,6 +20,7 @@
   grid-row: 1 / span 1;
   background-color: #2c2c2c;
   /* border: 1px solid #e9ecef; */
+  border-radius: 0.5rem;
   color: #fff;
   padding: 20px;
   font-size: 4em;
@@ -37,6 +38,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  border-radius: 0.5rem;
   color: #fff;
   padding: 20px;
 }
@@ -52,19 +54,19 @@
 .blog__post-one {
   grid-column: 1 / span 3;
   grid-row: 4 / span 1;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .blog__post-two {
   grid-column: 1 / span 3;
   grid-row: 5 / span 1;
-  bottom: 1px solid violet;
+  /* bottom: 1px solid violet; */
 }
 
 .blog__post-three {
   grid-column: 1 / span 3;
   grid-row: 6 / span 1;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
 }
 
 .blog__post-one,
@@ -73,6 +75,7 @@
   background-color: #ffd700;
   padding: 20px;
   color: #2c2c2c;
+  border-radius: 0.5rem;
 }
 
 .main__footer {
@@ -80,6 +83,7 @@
   grid-row: 7 / span 1;
   background-color: #2c2c2c;
   border: 1px solid #273a42;
+  border-radius: 0 0 0.5rem 0.5rem;
   color: #fff;
   padding: 20px;
   text-align: center;

@@ -6,7 +6,7 @@
   border: 1px solid #e0e0e0;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   position: relative;
 }
 
@@ -27,11 +27,12 @@
   /* margin: 10px 0; */
 }
 
-.read__more {
+.fa-chevron-right {
   position: absolute;
-  right: 20px;
-  bottom: 50px;
-  color: red;
+  right: 9px;
+  bottom: 5px;
+  color: #260101;
   width: 30px;
   height: 30px;
+  cursor: pointer;
 }

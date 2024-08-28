@@ -23,4 +23,12 @@
 .header__nav_item a {
   margin-right: 1rem;
   text-decoration: none;
+  color: #260101;
+}
+
+.header__nav_item a:hover {
+  color: #343a40;
+  font-weight: bold;
+  border-bottom: 3px solid #260101;
+  transition: all 0.2s ease-in-out;
 }
