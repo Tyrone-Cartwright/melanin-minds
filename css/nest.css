@@ -1,14 +1,21 @@
 .grid__header {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "title description"
+    "title description"
+    "title description"
+    ". rm";
+  text-align: left;
 }
 
 .title {
   grid-area: title;
   grid-column: 1 / span 2;
-  grid-row: 3 / span 1;
-  font-size: 29px;
-  margin: 40px 5px;
+  grid-row: 2 / span 1;
+  font-size: 38px;
+  font-weight: 800;
+  padding-left: 50px;
 }
 
 .description {
@@ -18,9 +25,29 @@
   padding: 20px;
 }
 
+.grid__header a {
+  text-decoration: none;
+  color: #e8e6e6;
+  display: inline-block;
+  width: 200px;
+  height: 60px;
+  background-color: #800000;
+  outline: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  padding: 15px 23px;
+  cursor: pointer;
+}
+
+.grid__header a:hover {
+  background-color: #ff0000;
+  color: #2c2c2c;
+  transition: all 0.3s ease-in-out;
+}
+
 .read__more {
   grid-area: rm;
-  justify-self: end;
+  justify-self: start;
   font-size: 16px;
-  margin-right: 20px;
+  text-transform: uppercase;
 }
