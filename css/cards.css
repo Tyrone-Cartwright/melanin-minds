@@ -13,23 +13,24 @@
 .blog__card img {
   max-width: 102px;
   float: left;
-  margin-right: 10px;
+  /* margin-right: 10px; */
 }
 
 .blog__card h3 {
-  font-size: 1rem;
-  margin: 10px 0;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-left: 15px;
 }
 
 .blog__card p {
   color: #260101;
   font-size: 0.9rem;
-  /* margin: 10px 0; */
+  margin-left: 15px;
 }
 
 .fa-chevron-right {
   position: absolute;
-  right: 9px;
+  right: 3px;
   bottom: 5px;
   color: #260101;
   width: 30px;

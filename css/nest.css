@@ -1,0 +1,26 @@
+.grid__header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.title {
+  grid-area: title;
+  grid-column: 1 / span 2;
+  grid-row: 3 / span 1;
+  font-size: 29px;
+  margin: 40px 5px;
+}
+
+.description {
+  grid-area: description;
+  grid-column: 2 / span 3;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.read__more {
+  grid-area: rm;
+  justify-self: end;
+  font-size: 16px;
+  margin-right: 20px;
+}

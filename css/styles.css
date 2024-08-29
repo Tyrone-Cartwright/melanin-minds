@@ -4,6 +4,7 @@
 @import url("navigation.css");
 @import url("aside.css");
 @import url("cards.css");
+@import url("nest.css");
 
 /* Media Queries */
 
@@ -85,6 +86,29 @@
     grid-row: 1 / span 5;
   }
 
+  .blog__card {
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* margin-bottom: 20px; */
+    position: relative;
+  }
+
+  .blog__card h3 {
+    font-size: 0.9rem;
+    margin-left: 8px;
+  }
+
+  .blog__card p {
+    font-size: 0.7rem;
+    margin-left: 8px;
+    line-height: 1.4;
+  }
+
   .blog__post-one {
     grid-column: 1 / span 1;
     grid-row: 6 / span 1;
@@ -98,15 +122,6 @@
   .blog__post-three {
     grid-column: 3 / span 1;
     grid-row: 6 / span 1;
-  }
-
-  .blog__post-one,
-  .blog__post-two,
-  .blog__post-three {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   .blog__post-one,
