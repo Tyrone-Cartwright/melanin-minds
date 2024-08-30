@@ -2,15 +2,6 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(8, auto);
-  /* grid-template-areas:
-    "mh"
-    "ft"
-    "as"
-    "bpo"
-    "bpt"
-    "bpth"
-    "footer"; */
-  /* gap: 1rem; */
   gap: 10px;
   padding: 1rem;
 }
@@ -19,7 +10,6 @@
   grid-column: 1 / span 3;
   grid-row: 1 / span 1;
   background-color: #2c2c2c;
-  /* border: 1px solid #e9ecef; */
   border-radius: 0.5rem;
   color: #fff;
   padding: 20px;
@@ -55,25 +45,21 @@
 .blog__post-one {
   grid-column: 1 / span 3;
   grid-row: 4 / span 1;
-  /* border: 1px solid red; */
 }
 
 .blog__post-two {
   grid-column: 1 / span 3;
   grid-row: 5 / span 1;
-  /* bottom: 1px solid violet; */
 }
 
 .blog__post-three {
   grid-column: 1 / span 3;
   grid-row: 6 / span 1;
-  /* border: 1px solid yellow; */
 }
 
 .blog__post-one,
 .blog__post-two,
 .blog__post-three {
-  background-color: #ffd700;
   padding: 20px;
   color: #2c2c2c;
   border-radius: 0.5rem;

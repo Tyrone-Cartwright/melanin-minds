@@ -5,15 +5,15 @@
   padding: 20px;
   border: 1px solid #e0e0e0;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  /* margin-bottom: 20px; */
+  -webkit-box-shadow: -2px 1px 23px 11px rgb(216, 216, 216);
+  -moz-box-shadow: -2px 1px 23px 11px rgba(216, 216, 216, 1);
+  box-shadow: -2px 1px 23px 11px rgba(216, 216, 216, 1);
   position: relative;
 }
 
 .blog__card img {
   max-width: 102px;
   float: left;
-  /* margin-right: 10px; */
 }
 
 .blog__card h3 {

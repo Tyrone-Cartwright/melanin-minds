@@ -29,13 +29,13 @@
   text-decoration: none;
   color: #e8e6e6;
   display: inline-block;
-  width: 200px;
+  width: 220px;
   height: 60px;
   background-color: #800000;
   outline: none;
   border-radius: 8px;
   margin-top: 20px;
-  padding: 15px 23px;
+  padding: 15px 25px;
   cursor: pointer;
 }
 
