@@ -14,6 +14,10 @@
 .blog__card img {
   max-width: 102px;
   float: left;
+  border-radius: 0.625rem;
+  -webkit-box-shadow: -2px 1px 23px 11px rgb(216, 216, 216);
+  -moz-box-shadow: -2px 1px 23px 11px rgba(216, 216, 216, 1);
+  box-shadow: -2px 1px 23px 11px rgb(212, 211, 211);
 }
 
 .blog__card h3 {
