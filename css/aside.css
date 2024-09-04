@@ -41,6 +41,6 @@
   margin-bottom: 0.3rem;
 }
 
-div.side__post:last-child {
+.side__post:last-child {
   border-bottom: none;
 }
