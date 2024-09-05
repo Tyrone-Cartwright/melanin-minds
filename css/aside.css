@@ -6,6 +6,7 @@
 
 .aside__blog h3 {
   color: #fce570;
+  font-family: Poppins, sans-serif;
   font-size: 1.6rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
@@ -30,6 +31,7 @@
 }
 
 .side__post h4 {
+  font-family: Poppins, sans-serif;
   font-size: 1.25rem;
   font-weight: bold;
   /* margin-bottom: 0.3rem; */
