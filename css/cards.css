@@ -12,12 +12,21 @@
 }
 
 .blog__card img {
-  max-width: 102px;
-  float: left;
+  max-width: 100%;
   border-radius: 0.625rem;
   -webkit-box-shadow: -2px 1px 23px 11px rgb(216, 216, 216);
   -moz-box-shadow: -2px 1px 23px 11px rgba(216, 216, 216, 1);
   box-shadow: -2px 1px 23px 11px rgb(212, 211, 211);
+  position: relative;
+}
+
+.blog__card figcaption {
+  font-size: 0.65rem;
+  position: absolute;
+  top: 30px;
+  padding-left: 10px;
+  font-weight: 700;
+  color: #fff;
 }
 
 .blog__card h3 {
@@ -25,12 +34,21 @@
   font-size: 1.3rem;
   font-weight: 700;
   margin-left: 15px;
+  text-transform: uppercase;
 }
 
 .blog__card p {
   color: #260101;
   font-size: 0.9rem;
   margin-left: 15px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
 }
 
 .fa-chevron-right {

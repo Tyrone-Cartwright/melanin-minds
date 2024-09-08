@@ -23,7 +23,6 @@
   grid-area: description;
   grid-column: 2 / span 1;
   font-size: 16px;
-  /* padding: 20px; */
 }
 
 .grid__header a {
