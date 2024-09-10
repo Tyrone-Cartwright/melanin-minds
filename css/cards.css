@@ -1,6 +1,7 @@
 .blog__card {
   display: flex;
-  flex: wrap;
+  /* flex: wrap; */
+  flex-direction: column;
   align-items: center;
   padding: 20px;
   border: 1px solid #e0e0e0;
@@ -47,16 +48,22 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
   padding: 20px;
 }
 
-.fa-chevron-right {
-  position: absolute;
-  right: 3px;
-  bottom: 5px;
-  color: #260101;
-  width: 30px;
-  height: 30px;
+.read__more {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #800000;
+  padding: 10px 20px;
+  border-radius: 0.5rem;
+  margin-top: 20px;
   cursor: pointer;
+  text-decoration: none;
+}
+
+.read__more:hover {
+  background-color: #ff0000;
+  transition: all 0.3s ease-in-out;
 }
